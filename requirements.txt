@@ -1,0 +1,38 @@
+# FastAPI stack
+fastapi
+uvicorn[standard]
+
+# Database
+SQLAlchemy
+psycopg2-binary
+asyncpg
+alembic
+
+# Pydantic (v2 compatible)
+pydantic>=2.0
+pydantic-settings
+pydantic[email]
+email-validator
+
+# Auth / Security  🔴 CRITICAL PINS
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+python-jose[cryptography]
+python-multipart
+
+# Utilities
+pdfminer.six
+python-docx
+openai>=1.0.0
+numpy
+boto3
+pypdf
+beautifulsoup4
+requests
+tiktoken
+pgvector
+python-dotenv
+
+# 🔵 Added for Website Scraping (NEW)
+cloudscraper
+playwright
